@@ -1,9 +1,18 @@
 print("Hello there!\n")
 print("Today, I am going to read your mind!\n")
-print("Think of a number between 1 and 9.\n"
-      "Add 5\n"
-      "Multiply by 2\n"
-      "Multiply by 5\n"
-      "Add 70\n"
-      "Subtract 15\n")
-print("You got a number whose tens place is the number you thought of, and ones place is 5!")
+print("I am going to tell you the number you thought of and somehow include a number you made me think!\n")
+my_num = int(input("Enter a number between 1 and 9 which you want me to think: "))
+to_add = my_num+65
+print("Now follow these steps: \n"
+"Think of another number between 1 and 9 which is different from the previous number\n"
+"Add 5\n"
+"Multiply by 2\n"
+"Multiply by 5\n"
+f"Add {to_add} \n"
+"Subtract 15\n")
+answer = int(input("Enter your answer: "))
+
+string = str(answer)
+
+print(f"\n{string[-1]} is the number you wanted me to think, which is present.")
+print(f"In your mind, you thought of: {string[-2]}")
