@@ -1,0 +1,9 @@
+print("Hello there!\n")
+print("Today, I am going to read your mind!\n")
+print("Think of a number between 1 and 9.\n"
+      "Add 5\n"
+      "Multiply by 2\n"
+      "Multiply by 5\n"
+      "Add 70\n"
+      "Subtract 15\n")
+print("You got a number whose tens place is the number you thought of, and ones place is 5!")
